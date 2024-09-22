@@ -1,0 +1,39 @@
+.logout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4; /* Light background */
+}
+
+.logout-message {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.logout-message h2 {
+  color: #4a148c; /* Main color */
+}
+
+.logout-message p {
+  color: #666; /* Secondary text color */
+  margin: 10px 0;
+}
+
+.login-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4a148c;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.login-link:hover {
+  background-color: #5e35b1; /* Darker shade on hover */
+}

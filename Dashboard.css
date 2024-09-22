@@ -1,0 +1,74 @@
+/* Dashboard.css */
+
+/* Navbar at the top */
+.navbar {
+  width: 100%;
+  background-color: #5D3FD3; /* Navbar color */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed; /* Keep it fixed at the top */
+  top: 0;
+  left: 0;
+  height: 60px; /* Navbar height */
+  z-index: 1000; /* Make sure it stays on top */
+}
+
+.navbar-logo {
+  height: 40px;
+  width:300px;
+}
+
+.logout-button {
+  background-color: #ff4747;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.dashboard-container {
+  display: flex;
+  margin-top: 60px; /* Adjust based on the navbar height */
+  height: calc(100vh - 60px); /* Make the dashboard take the remaining height below the navbar */
+}
+
+/* Sidebar on the left */
+.sidebar {
+  width: 20%; /* Sidebar width */
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar-link {
+  display: block;
+  padding: 10px;
+  background-color: #e9ecef;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.sidebar-link:hover {
+  background-color: #adb5bd;
+}
+
+/* Main content on the right */
+.main-content {
+  width: 80%; /* Main content width */
+  padding: 20px;
+  background-color: #fff;
+  overflow-y: auto; /* Allow scrolling if content is long */
+}
